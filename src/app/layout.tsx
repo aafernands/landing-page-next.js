@@ -21,15 +21,22 @@ export default function RootLayout({
           <header className="border-b border-slate-800 bg-gradient-to-r from-sky-600 via-blue-600 to-cyan-500 text-white shadow-lg">
             <div className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between px-6">
               <Link href="/" className="text-lg font-semibold tracking-tight">
-                Next.js Landing
+                ALX Weather App
               </Link>
               <nav className="flex items-center gap-6 text-sm text-white/90">
                 <Link href="/" className="transition hover:scale-[1.02] hover:text-white">
                   Home
                 </Link>
-                <Link href="/products" className="transition hover:scale-[1.02] hover:text-white">
-                  Products
+                 <Link href="/features" className="transition hover:scale-[1.02] hover:text-white">
+                  Features
                 </Link>
+                <Link href="pricing" className="transition hover:scale-[1.02] hover:text-white">
+                  Pricing
+                </Link>
+                <Link href="login" className="transition hover:scale-[1.02] hover:text-white">
+                  Login/Sign Up
+                </Link>
+
               </nav>
             </div>
           </header>
@@ -41,7 +48,7 @@ export default function RootLayout({
           <footer className="border-t border-slate-800 bg-slate-900/90">
             <div className="mx-auto w-full max-w-5xl px-6 py-8 text-sm text-slate-300">
               <p className="font-medium text-slate-200">
-                &copy; {year} Next.js Landing. All rights reserved.
+                &copy; {year} ALX Weather App. All rights reserved.
               </p>
               <p className="mt-2 text-xs text-slate-400">
                 Crafted with Next.js and Tailwind CSS.

@@ -22,10 +22,10 @@ export default function NotFound() {
                         Back to home
                     </Link>
                     <Link
-                        href="/products"
+                        href="/features"
                         className="inline-flex items-center justify-center rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:text-white"
                     >
-                        Browse products
+                        See Features
                     </Link>
                 </div>
             </section>
